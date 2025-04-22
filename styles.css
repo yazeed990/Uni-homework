@@ -1,0 +1,50 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    font-family: Tahoma, sans-serif;
+}
+
+h1{
+    text-transform: capitalize;
+}
+
+
+.normal{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 0;
+
+}
+
+hr{
+    width: 100%;
+}
+
+.red del, .red ins{
+    color: red
+}
+
+.cost-img{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+a img{
+    display: block;
+}
+a img:hover{
+    background-color: aqua;
+    transform:translate(3px, 3px);
+
+}
+
+table{
+    border: 6px inset grey;
+    
+}
+
+td{
+    border: 1px solid black
+}
